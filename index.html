@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <title>Список дел</title>
+</head>
+<body>
+    <header class="header">
+        <button class="header__button header__button-chage-color">Выберите цвет</button>
+        <div class="modal">
+            <div class="modal__container">
+                <span class="modal__close-button">&times;</span>
+                <p class="modal__text">Выберите цвет</p>
+                <button class="color1 modal__color-btn"></button>
+                <button class="color2 modal__color-btn"></button>
+                <button class="color3 modal__color-btn"></button>
+                <button class="color4 modal__color-btn"></button>
+                <button class="color5 modal__color-btn"></button>
+                <button class="color6 modal__color-btn"></button>
+                <button class="color7 modal__color-btn"></button>
+                <button class="color8 modal__color-btn"></button>
+                <button class="color9 modal__color-btn"></button>
+                <button class="color10 modal__color-btn"></button>
+                <button class="color11 modal__color-btn"></button>
+                <button class="color12 modal__color-btn"></button>
+            </div>
+        </div>
+        <button class="header__button header__button-weather">Посмотреть погоду</button>
+    </header>
+    <main class="main-container">
+        <section class="clock-and-date">
+            <div class="clock">00:00</div>
+            <div class="date"></div>
+        </section>
+        <section class="greeting">
+            <form action="#" class="greeting__form">
+                <input class="greeting__input" type="text" placeholder="Как вас зовут?">
+            </form>
+            <h2 class="greeting__h2"></h2>
+        </section>
+        <section class="tasks">
+            <h2 class="tasks__h2">Задачи</h2>
+            <form action="#" class="tasks__form">
+                <input class="tasks__input" type="text" placeholder="Добавьте задачу на сегодня">
+                <button class="tasks__submitButton">Добавить</button>
+            </form> 
+            <ul class="tasks__to-do-list"></ul>
+        </section>
+    </main>
+    <script type="module" src="js/clockAndDate.js"></script>
+    <script type="module" src="js/greeting.js"></script>
+    <script type="module" src="js/changeColor.js"></script>
+    <script type="module" src="js/toDo.js"></script>
+</body>
+</html>
