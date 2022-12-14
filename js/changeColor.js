@@ -137,4 +137,4 @@ for (let colorButton of colorButtons) {
     })
 }
 
-weatherButton.addEventListener('click', () => alert('Извините, сайт с погодой находится в процессе разработки'));
+// weatherButton.addEventListener('click', () => alert('Извините, сайт с погодой находится в процессе разработки'));
