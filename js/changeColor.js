@@ -136,5 +136,3 @@ for (let colorButton of colorButtons) {
         saveColor(index);
     })
 }
-
-// weatherButton.addEventListener('click', () => alert('Извините, сайт с погодой находится в процессе разработки'));
